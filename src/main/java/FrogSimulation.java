@@ -23,7 +23,7 @@ public class FrogSimulation
 		      if (distance<0)
 		        return false;
 		       else if (distance >= goalDistance)
-		       return false;
+		       return true;
 		    }
 		    return false;
 
